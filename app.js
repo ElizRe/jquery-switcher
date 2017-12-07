@@ -25,3 +25,12 @@ function main(){
 $(document).ready(function(){
 	main();
 });
+
+$('button').click(function(){
+var Animalname =$(this).attr("data-animal");
+var image = species [Animalname];
+var $target =$('#holder');
+$target.html('<img src="img/'+ image + '">');                                                    
+           
+});
+
